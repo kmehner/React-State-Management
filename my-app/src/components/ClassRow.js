@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 
 export default class ClassRow extends Component {
     render() {
-        const student = this.props.students
+        const student = this.props.student
         return (
             <tr>
                 <td>{student.first_name}</td>

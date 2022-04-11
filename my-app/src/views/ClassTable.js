@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import ClassRow from '../components/ClassRow'
 
 export default class ClassTable extends Component {
@@ -15,7 +15,7 @@ export default class ClassTable extends Component {
                         </tr>
                     </thead>
                     <tbody>
-                        {/* {this.props.students.map((student, idx) => <ClassRow student={student} key={idx} />)} */}
+                        {this.props.students.map((student, idx) => <ClassRow student={student} key={idx} />)}
                     </tbody>
                 </table>
             </>
